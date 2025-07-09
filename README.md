@@ -58,6 +58,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 📁 db/
 ├── rohs_compliance.csv → device/batch RoHS status
+
 └── inspection_log.db → log of all inspections
 
 📁 docs/ → Project Report
