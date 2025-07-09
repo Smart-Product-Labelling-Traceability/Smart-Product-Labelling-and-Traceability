@@ -53,11 +53,15 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 ## 📁 Folder Structure
 
 📁 code/ → main.py - single Python script
+
 📁 models/ → YOLOv8 model for PCB defect detection
+
 📁 db/
 ├── rohs_compliance.csv → device/batch RoHS status
 └── inspection_log.db → log of all inspections
+
 📁 docs/ → Project Report
+
 📁 images/ → system diagram / photos
 
 ## 🧪 How It Works
