@@ -10,7 +10,6 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 - [💻 Software Stack](#-software-stack)
 - [📁 Folder Structure](#-folder-structure)
 - [🧪 How It Works](#-how-it-works)
-- [🧑‍💻 How to Run](#-how-to-run)
 - [🗃️ Databases](#️-databases)
 - [📸 Model Info](#-model-info)
 - [👥 Team Members](#-team-members)
@@ -74,14 +73,6 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ---
 
-## 🧑‍💻 How to Run
-
-
-# Install dependencies
-install all the libraries required
-
-# Run the code
-python code/main.py
 
 🗃️ Databases
 rohs_compliance.csv – stores known device ID, batch ID, and compliance info
