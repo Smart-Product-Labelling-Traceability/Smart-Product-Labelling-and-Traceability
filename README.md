@@ -20,50 +20,46 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ## 📦 Features
 
-- 🎞️ IR sensor detects product entry on conveyor
-- 🎥 Camera captures PCB image upon detection
-- 📄 QR is read → Device ID & Batch ID extracted
-- ✅ RoHS compliance verified from local database (`rohs_compliance.csv`)
-- 🔍 YOLOv8 model checks for cracks, holes, and burns on PCB
-- ❌ Non-compliant or defective PCBs are removed using servo motor
-- ⚙️ Conveyor belt is controlled via Raspberry Pi and motor driver
-- 🖨️ Final label (Device ID, Batch ID, RoHS Status, Result) is displayed on screen
-- 🗃️ All inspection records logged into `inspection_log.db`
+- 🎞️ IR sensor detects product entry on conveyor  
+- 🎥 Camera captures PCB image upon detection  
+- 📄 QR is read → Device ID & Batch ID extracted  
+- ✅ RoHS compliance verified from local database (`rohs_compliance.csv`)  
+- 🔍 YOLOv8 model checks for cracks, holes, and burns on PCB  
+- ❌ Non-compliant or defective PCBs are removed using servo motor  
+- ⚙️ Conveyor belt is controlled via Raspberry Pi and motor driver  
+- 🖨️ Final label (Device ID, Batch ID, RoHS Status, Result) is displayed on screen  
+- 🗃️ All inspection records logged into `inspection_log.db`  
 
 ---
 
 ## 🧰 Hardware Used
 
-- Raspberry Pi 4
-- IR Sensor
-- USB Webcam 
-- Motor Driver (L298N)
-- 2 DC Motors (Conveyor)
+- Raspberry Pi 4  
+- IR Sensor  
+- USB Webcam  
+- Motor Driver (L298N)  
+- 2 DC Motors (Conveyor)  
 - Servo Motor (for removal system)
 
 ---
 
 ## 💻 Software Stack
 
-- Python
-- OpenCV
-- YOLOv8 (Ultralytics)
-- pyzbar (for QR code reading)
-- SQLite3 / CSV for databases
-- Tkinter (for UI display, optional)
-
----
+- Python  
+- OpenCV  
+- YOLOv8 (Ultralytics)  
+- pyzbar (for QR code reading)  
+- SQLite3 / CSV for databases  
 
 ## 📁 Folder Structure
+
 📁 code/ → main.py - single Python script
 📁 models/ → YOLOv8 model for PCB defect detection
 📁 db/
-├── rohs_compliance.csv - device/batch status
-└── inspection_log.db - log of all inspections
+├── rohs_compliance.csv → device/batch RoHS status
+└── inspection_log.db → log of all inspections
 📁 docs/ → Project Report
 📁 images/ → system diagram / photos
-
----
 
 ## 🧪 How It Works
 
