@@ -3,6 +3,20 @@
 An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision (YOLO), and real-time database logging to ensure RoHS compliance and detect PCB defects on a conveyor belt system.
 
 ---
+## 🔗 Table of Contents
+
+- [📦 Features](#-features)
+- [🧰 Hardware Used](#-hardware-used)
+- [💻 Software Stack](#-software-stack)
+- [📁 Folder Structure](#-folder-structure)
+- [🧪 How It Works](#-how-it-works)
+- [🧑‍💻 How to Run](#-how-to-run)
+- [🗃️ Databases](#️-databases)
+- [📸 Model Info](#-model-info)
+- [👥 Team Members](#-team-members)
+- [📄 License](#-license)
+
+---
 
 ## 📦 Features
 
@@ -84,9 +98,10 @@ YOLOv8 trained on 300+ PCB defect images (crack, hole, burn)
 models/pcb_defect_yolo.pt
 
 👥 Team Members
-jeffin
-john
+ABIJITH SS
+JEFFIN I PATRICK
+GEORGE K JOHN
 
 
 📄 License
-This project is licensed under the MIT License – see the LICENSE file.
+This project is licensed under the MIT License.
