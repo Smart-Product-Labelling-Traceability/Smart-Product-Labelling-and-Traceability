@@ -73,22 +73,21 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ---
 
-
-🗃️ Databases
+## 🗃️ Databases
 rohs_compliance.csv – stores known device ID, batch ID, and compliance info
 
 inspection_log.db – stores all results (pass/fail, timestamps, image ref, etc.)
 
-📸 Model Info
+## 📸 Model Info
 YOLOv8 trained on 300+ PCB defect images (crack, hole, burn)
 
 models/pcb_defect_yolo.pt
 
-👥 Team Members
+## 👥 Team Members
 ABIJITH SS
 JEFFIN I PATRICK
 GEORGE K JOHN
 
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
