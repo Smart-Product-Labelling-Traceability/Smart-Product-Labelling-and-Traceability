@@ -56,9 +56,9 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 📁 models/ → YOLOv8 model for PCB defect detection
 
-📁 db/
+📁 database/
 
-├── rohs_compliance.csv → device/batch RoHS status
+├── rohs_compliance.db → device/batch RoHS status
 
 └── inspection_log.db → log of all inspections
 
