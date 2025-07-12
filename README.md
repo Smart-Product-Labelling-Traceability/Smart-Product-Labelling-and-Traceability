@@ -3,19 +3,6 @@
 An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision (YOLO), and real-time database logging to ensure RoHS compliance and detect PCB defects on a conveyor belt system.
 
 ---
-## 🔗 Table of Contents
-
-- [📦 Features](#-features)
-- [🧰 Hardware Used](#-hardware-used)
-- [💻 Software Stack](#-software-stack)
-- [📁 Folder Structure](#-folder-structure)
-- [🧪 How It Works](#-how-it-works)
-- [🗃️ Databases](#️-databases)
-- [📸 Model Info](#-model-info)
-- [👥 Team Members](#-team-members)
-- [📄 License](#-license)
-
----
 
 ## 📦 Features
 
@@ -38,7 +25,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 - USB Webcam  
 - Motor Driver (L298N)  
 - 2 DC Motors (Conveyor)  
-- Servo Motor (for removal system)
+- Servo Motor (for removal system)  
 
 ---
 
@@ -49,6 +36,9 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 - YOLOv8 (Ultralytics)  
 - pyzbar (for QR code reading)  
 - SQLite3 / CSV for databases  
+- Tkinter (for UI display, optional)  
+
+---
 
 ## 📁 Folder Structure
 
@@ -56,15 +46,38 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 📁 models/ → YOLOv8 model for PCB defect detection
 
-📁 database/
+└── best.pt
 
-├── rohs_compliance.db → device/batch RoHS status
+📁 db/
 
-└── inspection_log.db → log of all inspections
+├── rohs_compliance.csv - device/batch status
 
-📁 docs/ → Project Report
+└── inspection_log.db - log of all inspections
 
-📁 images/ → system diagram / photos
+📁 docs/
+
+├── Final_database.pdf
+
+├── Rohs_database.pdf
+
+└── report.pdf
+
+📁 images/
+
+├── Complaint_defect_label.jpg
+
+├── Rohs_violation_defect.jpg
+
+├── Pcb.jpg
+
+└── TraceStation.jpg
+
+📁 videos/
+
+└── Demo_video.mp4
+
+
+---
 
 ## 🧪 How It Works
 
@@ -79,21 +92,76 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ---
 
-## 🗃️ Databases
-rohs_compliance.csv – stores known device ID, batch ID, and compliance info
+## 🖼️ Sample Images
 
-inspection_log.db – stores all results (pass/fail, timestamps, image ref, etc.)
+![Complaint Defect Label](images/Complaint_defect_label.jpg)  
+![RoHS Violation Defect](images/Rohs_violation_defect.jpg)  
+![PCB Sample](images/Pcb.jpg)  
+![Trace Station](images/TraceStation.jpg)  
 
-## 📸 Model Info
-YOLOv8 trained on 300+ PCB defect images (crack, hole, burn)
+---
 
-models/pcb_defect_yolo.pt
+## 🎥 Demo Video
 
-## 👥 Team Members
-ABIJITH SS
-JEFFIN I PATRICK
-GEORGE K JOHN
+👉 [Click to Watch the Demo](videos/Demo_video.mp4)
 
+---
 
-## 📄 License
-This project is licensed under the MIT License.
+# Step 1: Install dependencies
+
+# Step 2: Run the system
+python code/main.py
+
+### 🗃️ Databases
+
+- [📄 `rohs_compliance.db`](./database/rohs_compliance.db) – Stores known device IDs, batch IDs, and compliance info  
+- [📄 `inspection_log.db`](./database/inspection_log.db) – Stores inspection results (pass/fail, timestamps, image references, etc.)
+
+---
+
+### 🤖 Model Info
+
+- Trained on 300+ PCB defect images (crack, hole, burn) using YOLOv8  
+- [🧠 `best.pt`](./models/best.pt) – Final trained YOLOv8 model weights
+
+---
+
+### 📄 Documents
+
+- [📘 Final Database PDF](./docs/Final%20database.pdf)  
+- [📗 RoHS Database PDF](./docs/Rohs_database.pdf)
+
+---
+
+### 🖼️ Sample Images
+
+- ![Complaint Label](./images/Complaint_defect_label.jpg)  
+- ![PCB Sample](./images/Pcb.jpg)  
+- ![RoHS Violation](./images/Rohs_violation_defect.jpg)  
+- ![Trace Station](./images/TraceStation.jpg)
+
+---
+
+### 🎥 Demo
+
+- [▶️ Demo Video](./video/Demo_video.mp4)
+
+---
+
+### 🧪 Code
+
+- [🧠 `main.py`](./code/main.py)
+
+---
+
+### 👥 Team Members
+
+- Jeffin  
+- John  
+- Abijith SS
+
+---
+
+### 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
