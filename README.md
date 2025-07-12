@@ -91,9 +91,6 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ---
 
-## 🧑‍💻 How to Run
-
-```bash
 # Step 1: Install dependencies
 pip install -r requirements.txt
 
@@ -101,13 +98,14 @@ pip install -r requirements.txt
 python code/main.py
 
 🗃️ Databases
-rohs_compliance.csv – stores known device ID, batch ID, and compliance info
+📄 rohs_compliance.csv – Stores known device IDs, batch IDs, and compliance info
 
-inspection_log.db – stores all results (pass/fail, timestamps, image ref, etc.)
+📄 inspection_log.db – Stores inspection results (pass/fail, timestamps, image references, etc.)
 
 🤖 Model Info
-YOLOv8 trained on 300+ PCB defect images (crack, hole, burn)
-Model File: best.pt
+Trained on 300+ PCB defect images (crack, hole, burn) using YOLOv8
+
+🧠 best.pt – Final trained YOLOv8 model weights
 
 📄 Documents
 📘 Final Database PDF
@@ -121,7 +119,9 @@ Jeffin
 
 John
 
-Abijith ss
+Abijith SS
 
 📄 License
-This project is licensed under the MIT License – see the LICENSE file.
+This project is licensed under the MIT License.
+
+
