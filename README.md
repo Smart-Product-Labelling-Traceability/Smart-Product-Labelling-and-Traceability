@@ -105,7 +105,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ## 🎥 Demo Video
 
-👉 [Click to Watch the Demo](videos/Demo_video.mp4)
+👉 [Click to Watch the Demo]([videos/Demo_video.mp4](https://drive.google.com/file/d/1ZvCEKYGpbcOFqddEUBZn2hIgykIMfiTf/view?usp=sharing))
 
 ---
 ## 🧑‍💻 How to Run
