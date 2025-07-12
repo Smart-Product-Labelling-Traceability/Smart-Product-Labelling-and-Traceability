@@ -124,7 +124,7 @@ python code/main.py
 
 ### 🤖 Model Info
 
-- Trained on 300+ PCB defect images (crack, hole, burn) using YOLOv8  
+- Trained on PCB defect images (crack, hole, burn) using YOLOv8  
 - [🧠 `best.pt`](./models/best.pt) – Final trained YOLOv8 model weights
 
 
