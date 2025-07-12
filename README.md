@@ -135,16 +135,22 @@ python code/main.py
 
 ### 🖼️ Sample Images
 
-- [🖼️ Complaint_defect_label.jpg](./images/Complaint_defect_label.jpg)  
-- [🖼️ PCB Sample](./images/Pcb.jpg)  
-- [🖼️ RoHS Violation Defect](./images/Rohs_violation_defect.jpg)  
-- [🖼️ Trace Station](./images/TraceStation.jpg)
+- ![Complaint Label](./images/Complaint_defect_label.jpg)  
+- ![PCB Sample](./images/Pcb.jpg)  
+- ![RoHS Violation](./images/Rohs_violation_defect.jpg)  
+- ![Trace Station](./images/TraceStation.jpg)
 
 ---
 
 ### 🎥 Demo
 
 - [▶️ Demo Video](./video/Demo_video.mp4)
+
+---
+
+### 🧪 Code
+
+- [🧠 `main.py`](./code/main.py)
 
 ---
 
@@ -159,8 +165,3 @@ python code/main.py
 ### 📄 License
 
 This project is licensed under the [MIT License](./LICENSE).
-
-
-
-
-
