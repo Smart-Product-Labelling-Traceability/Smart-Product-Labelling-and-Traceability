@@ -109,6 +109,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 👉 [Click to Watch the Demo](videos/Demo_video.mp4)
 
 ---
+## 🧑‍💻 How to Run
 
 # Step 1: Install dependencies
 
@@ -127,33 +128,6 @@ python code/main.py
 - Trained on 300+ PCB defect images (crack, hole, burn) using YOLOv8  
 - [🧠 `best.pt`](./models/best.pt) – Final trained YOLOv8 model weights
 
----
-
-### 📄 Documents
-
-- [📘 Final Database PDF](./docs/Final%20database.pdf)  
-- [📗 RoHS Database PDF](./docs/Rohs_database.pdf)
-
----
-
-### 🖼️ Sample Images
-
-- ![Complaint Label](./images/Complaint_defect_label.jpg)  
-- ![PCB Sample](./images/Pcb.jpg)  
-- ![RoHS Violation](./images/Rohs_violation_defect.jpg)  
-- ![Trace Station](./images/TraceStation.jpg)
-
----
-
-### 🎥 Demo
-
-- [▶️ Demo Video](./video/Demo_video.mp4)
-
----
-
-### 🧪 Code
-
-- [🧠 `main.py`](./code/main.py)
 
 ---
 
