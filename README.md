@@ -47,7 +47,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 └── best.pt
 
-📁 db/
+📁 database/
 
 ├── rohs_compliance.csv - device/batch status
 
@@ -70,11 +70,6 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 ├── Pcb.jpg
 
 └── TraceStation.jpg
-
-📁 videos/
-
-└── Demo_video.mp4
-
 
 ---
 
