@@ -133,9 +133,9 @@ python code/main.py
 
 ### 👥 Team Members
 
-- Jeffin  
-- John  
-- Abijith SS
+- JEFFIN I PATRICK   
+- GEORGE K JOHN 
+- ABIJITH SS
 
 ---
 
