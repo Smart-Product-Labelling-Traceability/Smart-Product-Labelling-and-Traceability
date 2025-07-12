@@ -1,24 +1,24 @@
-# 🏷️ Smart Product Labelling and Traceability System
+# Smart Product Labelling and Traceability System
 
 An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision (YOLO), and real-time database logging to ensure RoHS compliance and detect PCB defects on a conveyor belt system.
 
 ---
 
-## 📦 Features
+## Features
 
-- 🎞️ IR sensor detects product entry on conveyor  
-- 🎥 Camera captures PCB image upon detection  
-- 📄 QR is read → Device ID & Batch ID extracted  
-- ✅ RoHS compliance verified from local database (`rohs_compliance.csv`)  
-- 🔍 YOLOv8 model checks for cracks, holes, and burns on PCB  
-- ❌ Non-compliant or defective PCBs are removed using servo motor  
-- ⚙️ Conveyor belt is controlled via Raspberry Pi and motor driver  
-- 🖨️ Final label (Device ID, Batch ID, RoHS Status, Result) is displayed on screen  
-- 🗃️ All inspection records logged into `inspection_log.db`  
+- IR sensor detects product entry on conveyor  
+- Camera captures PCB image upon detection  
+- QR is read → Device ID & Batch ID extracted  
+- RoHS compliance verified from local database (`rohs_compliance.csv`)  
+- YOLOv8 model checks for cracks, holes, and burns on PCB  
+- Non-compliant or defective PCBs are removed using servo motor  
+- Conveyor belt is controlled via Raspberry Pi and motor driver  
+- Final label (Device ID, Batch ID, RoHS Status, Result) is displayed on screen  
+- All inspection records logged into `inspection_log.db`  
 
 ---
 
-## 🧰 Hardware Used
+## Hardware Used
 
 - Raspberry Pi 4  
 - IR Sensor  
@@ -29,7 +29,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ---
 
-## 💻 Software Stack
+## Software Stack
 
 - Python  
 - OpenCV  
@@ -78,7 +78,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 1. IR sensor detects incoming product  
 2. Camera captures image → QR is read  
@@ -91,7 +91,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ---
 
-## 🖼️ Sample Images
+## Sample Images
 
 ### Labels
 ![Complaint Defect Label](images/Complaint_defect_label.jpg) 
@@ -103,34 +103,34 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 👉 https://drive.google.com/file/d/1ZvCEKYGpbcOFqddEUBZn2hIgykIMfiTf/view?usp=sharing
 
 ---
-## 🧑‍💻 How to Run
+## How to Run
 
 # Step 1: Install dependencies
 
 # Step 2: Run the system
 python code/main.py
 
-### 🗃️ Databases
+### Databases
 
-- [📄 `rohs_compliance.db`](./database/rohs_compliance.db) – Stores known device IDs, batch IDs, and compliance info  
-- [📄 `inspection_log.db`](./database/inspection_log.db) – Stores inspection results (pass/fail, timestamps, image references, etc.)
+- [`rohs_compliance.db`](./database/rohs_compliance.db) – Stores known device IDs, batch IDs, and compliance info  
+- [`inspection_log.db`](./database/inspection_log.db) – Stores inspection results (pass/fail, timestamps, image references, etc.)
 
 ---
 
-### 🤖 Model Info
+### Model Info
 
 - Trained on PCB defect images (crack, hole, burn) using YOLOv8  
-- [🧠 `best.pt`](./models/best.pt) – Final trained YOLOv8 model weights
+- [`best.pt`](./models/best.pt) – Final trained YOLOv8 model weights
 
 
 ---
 
-### 👥 Team Members
+### Team Members
 
 - JEFFIN I PATRICK   
 - GEORGE K JOHN 
@@ -138,6 +138,6 @@ python code/main.py
 
 ---
 
-### 📄 License
+### License
 
 This project is licensed under the [MIT License](./LICENSE).
