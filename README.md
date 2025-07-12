@@ -92,7 +92,6 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 ---
 
 # Step 1: Install dependencies
-pip install -r requirements.txt
 
 # Step 2: Run the system
 python code/main.py
@@ -114,6 +113,8 @@ Trained on 300+ PCB defect images (crack, hole, burn) using YOLOv8
 
 📕 Full Project Report
 
+💡 Tip: If your file names have spaces (like Final Database.pdf), make sure to use %20 in the URL (Final%20Database.pdf), or rename the files to use underscores or hyphens for cleaner links.
+
 👥 Team Members
 Jeffin
 
@@ -123,5 +124,7 @@ Abijith SS
 
 📄 License
 This project is licensed under the MIT License.
+
+
 
 
