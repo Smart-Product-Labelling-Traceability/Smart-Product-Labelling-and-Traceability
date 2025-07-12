@@ -35,8 +35,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 - OpenCV  
 - YOLOv8 (Ultralytics)  
 - pyzbar (for QR code reading)  
-- SQLite3 / CSV for databases  
-- Tkinter (for UI display, optional)  
+- SQLite3 / CSV for databases    
 
 ---
 
