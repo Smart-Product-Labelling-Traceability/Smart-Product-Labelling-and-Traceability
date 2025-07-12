@@ -126,6 +126,8 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 - [`main.py`](./code/main.py)
   
 ---
+## Project Report
+[Smart Product Labelling & Traceability – Final Project Report (PDF)](./docs/Project%20Report.pdf)
 
 ### Team Members
 
