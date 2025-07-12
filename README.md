@@ -94,9 +94,12 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 
 ## 🖼️ Sample Images
 
-![Complaint Defect Label](images/Complaint_defect_label.jpg)  
-![RoHS Violation Defect](images/Rohs_violation_defect.jpg)  
+### Labels
+![Complaint Defect Label](images/Complaint_defect_label.jpg) 
+![RoHS Violation Defect](images/Rohs_violation_defect.jpg) 
+### Pcb images
 ![PCB Sample](images/Pcb.jpg)  
+### Prototype
 ![Trace Station](images/TraceStation.jpg)  
 
 ---
