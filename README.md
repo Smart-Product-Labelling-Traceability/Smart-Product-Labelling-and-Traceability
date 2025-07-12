@@ -136,7 +136,7 @@ python code/main.py
 ### 🖼️ Sample Images
 
 - [🖼️ Complaint_defect_label.jpg](./images/Complaint_defect_label.jpg)  
-- [🖼️ PCB Sample](./images/Pcb.jpg.jpg)  
+- [🖼️ PCB Sample](./images/Pcb.jpg)  
 - [🖼️ RoHS Violation Defect](./images/Rohs_violation_defect.jpg)  
 - [🖼️ Trace Station](./images/TraceStation.jpg)
 
