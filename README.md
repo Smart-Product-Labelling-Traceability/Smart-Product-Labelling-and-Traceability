@@ -96,34 +96,54 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 # Step 2: Run the system
 python code/main.py
 
-🗃️ Databases
-📄 rohs_compliance.csv – Stores known device IDs, batch IDs, and compliance info
+### 🗃️ Databases
 
-📄 inspection_log.db – Stores inspection results (pass/fail, timestamps, image references, etc.)
+- [📄 `rohs_compliance.db`](./database/rohs_compliance.db) – Stores known device IDs, batch IDs, and compliance info  
+- [📄 `inspection_log.db`](./database/inspection_log.db) – Stores inspection results (pass/fail, timestamps, image references, etc.)
 
-🤖 Model Info
-Trained on 300+ PCB defect images (crack, hole, burn) using YOLOv8
+---
 
-🧠 best.pt – Final trained YOLOv8 model weights
+### 🤖 Model Info
 
-📄 Documents
-📘 Final Database PDF
+- Trained on 300+ PCB defect images (crack, hole, burn) using YOLOv8  
+- [🧠 `best.pt`](./models/best.pt) – Final trained YOLOv8 model weights
 
-📗 RoHS Database PDF
+---
 
-📕 Full Project Report
+### 📄 Documents
 
-💡 Tip: If your file names have spaces (like Final Database.pdf), make sure to use %20 in the URL (Final%20Database.pdf), or rename the files to use underscores or hyphens for cleaner links.
+- [📘 Final Database PDF](./docs/Final%20database.pdf)  
+- [📗 RoHS Database PDF](./docs/Rohs_database.pdf)
 
-👥 Team Members
-Jeffin
+---
 
-John
+### 🖼️ Sample Images
 
-Abijith SS
+- [🖼️ Complaint_defect_label.jpg](./images/Complaint_defect_label.jpg)  
+- [🖼️ PCB Sample](./images/Pcb.jpg.jpg)  
+- [🖼️ RoHS Violation Defect](./images/Rohs_violation_defect.jpg)  
+- [🖼️ Trace Station](./images/TraceStation.jpg)
 
-📄 License
-This project is licensed under the MIT License.
+---
+
+### 🎥 Demo
+
+- [▶️ Demo Video](./video/Demo_video.mp4)
+
+---
+
+### 👥 Team Members
+
+- Jeffin  
+- John  
+- Abijith SS
+
+---
+
+### 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
 
 
 
