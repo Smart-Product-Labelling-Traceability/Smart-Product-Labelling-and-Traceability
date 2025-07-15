@@ -110,7 +110,7 @@ An Intel Unnati Industry Training Project using Raspberry Pi 4, Computer Vision 
 ![PCB Sample](images/Pcb.jpg)  
 ### Prototype
 ![Trace Station](images/TraceStation.jpg)  
-Disclaimer: This prototype is a student project developed as part of the Intel® Unnati Industrial Training Program. It is not an official Intel® product, and the use of Intel® branding (such as stickers) is for educational purposes only.
+Disclaimer: This prototype is a student project developed as part of the Intel® Unnati Industrial Training Program. It is not an official Intel® product, and the use of Intel® branding (such as IntelTrace Station) is for educational purposes only.
 ## Demo Video
 
 👉 https://drive.google.com/file/d/1ZvCEKYGpbcOFqddEUBZn2hIgykIMfiTf/view?usp=sharing
